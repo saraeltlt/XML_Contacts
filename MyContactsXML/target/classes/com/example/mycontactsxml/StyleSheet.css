@@ -1,0 +1,23 @@
+
+.myButton {
+   -fx-background-color: linear-gradient(to right, #ce259d, #2372b2);
+    -fx-font-family: "Comic Sans MS";
+    -fx-background-radius: 20px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+
+.myButton:hover {
+    -fx-effect: dropshadow(gaussian, rgb(166, 26, 143), 10, 8.5, 0, 0);
+    -fx-background-radius: 100;
+    -fx-background-color: rgb(4, 93, 155);
+}
+
+.roundedTextField {
+    -fx-background-radius: 25px;
+    -fx-padding-left: 300px;
+    -fx-padding-right: 300px;
+}
+
+
